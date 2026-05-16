@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "nexus",
+  "version": "${version}",
+  "name": "nexus",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/nexus/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.nexus.nexus.client.NexusClient"
+    ],
+    "main": [
+      "com.nexus.nexus.Nexus"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
