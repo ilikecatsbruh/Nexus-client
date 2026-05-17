@@ -4,7 +4,7 @@
   "version": "${version}",
   "name": "nexus",
   "description": "",
-  "authors": [],
+  "authors": [ilikecats1234568,SmilerRyan],
   "contact": {},
   "license": "All-Rights-Reserved",
   "icon": "assets/nexus/icon.png",
@@ -18,8 +18,8 @@
     ]
   },
   "depends": {
-    "fabricloader": ">=${loader_version}",
-    "fabric-api": "*",
-    "minecraft": "${minecraft_version}"
+    "fabricloader": ">=${}",
+    "fabric-api": "0.141.4",
+    "minecraft": "${1.21.11}"
   }
 }
